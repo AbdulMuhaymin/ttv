@@ -1,0 +1,3 @@
+So, this folder contains a simple jupyter notebook with (called 'light_curve.ipynb') a single cell. This python script finds all the .txt file in the same directory and then create a folder called 'plots' and plot the light curve from all the .txt data file in the same directory as an .html file. I uploaded the output folder here. This script uses glob.glob to access all the data files inside a folder, then convert each data file into a pandas dataframe and lastly it uses bokeh to generate the light curve for each of the data file. 
+
+Summary: to run the ipynb notebook or python script, it needs to be in the same directory as all the light curve data files. (in our case, it should be inside 'lc' folder).
