@@ -1,0 +1,13 @@
+Planet_name     # of problematic data 
+HAT-P-23        2 
+HAT-P-32        23 
+HAT-P-37        8 
+HAT-P-56        0
+WASP-2          0
+WASP-14         14
+WASP-37         1
+WASP-69         3
+WASP-74         2
+WASP-103        8
+..............................
+Total 			61

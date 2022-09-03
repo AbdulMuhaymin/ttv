@@ -1,0 +1,47 @@
+\ 
+\ Chi-Squared Parameter Values for EXOFAST Calculation
+\ 
+\ Title: EXOFAST-011
+\ Date : Wed Mar 18 06:06:35 2020
+\ Fit Type: CHI2
+\ 
+| symbol          | parameter                               | units                   | value           |
+| char            | char                                    | char                    | double          |
+ M*                Stellar Mass                              Msun                              1.237721 
+ R*                Stellar Radius                            Rsun                              1.425163 
+ L*                Stellar Luminosity                        Lsun                              2.698309 
+ rho*              Stellar Density                           cgs                               0.603486 
+ logg*             Stellar Surface Gravity                   cgs                               4.223012 
+ Teff              Effective Temperature                     K                              6201.423067 
+ FeH               Metallicity                               none                              0.034832 
+ e                 Eccentricity                              none                              0.048339 
+ omega             Argument of Periastron                    degrees                         -91.824508 
+ P                 Period                                    days                              0.925542 
+ a                 Semi-Major Axis                           AU                                0.019951 
+ Rp                Planet Radius                             Rj                                1.552011 
+ Teq               Equilibrium Temperature                   K                              2527.016087 
+ Fave              Incident Flux                             10^9 ergs s^-1 cm^-2              9.227658 
+ ecosw             e cosine omega                            none                             -0.001539 
+ esinw             e sine omega                              none                             -0.048314 
+ TP                Time of Periastron                        BJD                            8250.987631 
+ TC                Time of Transit                           BJD                            8250.530021 
+ Rp/R*             Radius of Planet in Stellar Radii         none                              0.111941 
+ a/R*              Semi-Major Axis in Stellar Radii          none                              3.011180 
+ u1                Linear Limb-Darkening Coeff               none                              0.247805 
+ u2                Quadratic Limb-Darkening Coeff            none                              0.257923 
+ i                 Inclination                               degrees                          84.014574 
+ b                 Impact Parameter                          none                              0.329162 
+ delta             Transit Depth                             none                              0.012531 
+ TFWHM             FWHM Duration                             days                              0.099187 
+ tau               Ingress/Egress Duration                   days                              0.012913 
+ T14               Total Duration                            days                              0.112100 
+ PT                A Priori Non-Grazing Transit Prob         none                              0.281329 
+ PTG               A Priori Transit Prob                     none                              0.352253 
+ F0                Baseline Flux                             none                              1.000006 
+ TS                Time of Eclipse                           BJD                            8250.991884 
+ bS                Secondary Impact Parameter                none                              0.298821 
+ TSFWHM            Secondary FWHM Duration                   days                              0.091052 
+ tauS              Secondary Ingress/Egress Duration         days                              0.011611 
+ TS14              Total Eclipse Duration                    days                              0.102663 
+ PS                A Priori Non-Grazing Eclipse Prob         none                              0.309893 
+ PSG               A Priori Eclipse Prob                     none                              0.388019 

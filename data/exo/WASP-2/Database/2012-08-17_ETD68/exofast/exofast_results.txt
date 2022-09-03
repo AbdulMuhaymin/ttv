@@ -1,0 +1,72 @@
+IDL Version 8.2.3 (linux x86_64 m64). (c) 2013, Exelis Visual Information Solutions, Inc.
+
+ 
+******************************************
+Running ExoFAST Operational Version (v1.7)
+******************************************
+
+Transit fit:
+Chi^2/dof = 1.0943728
+Scaling errors by 1.0471711
+RMS of residuals = 0.0034613402
+
+Combined fit:
+Chi^2 of Transit data = 331.69327 (344 data points)
+Chi^2 of Priors = 0.15635423 (3 priors)
+Chi^2/dof = 1.0042294
+
+
+Stellar Parameters:
+          M_{*}                             Mass (\msun)       0.872757
+          R_{*}                           Radius (\rsun)       0.859983
+          L_{*}                       Luminosity (\lsun)       0.452533
+         \rho_*                            Density (cgs)       1.936691
+      \log(g_*)                    Surface gravity (cgs)       4.510031
+          \teff                Effective temperature (K)    5108.789850
+           \feh                               Metalicity       0.145206
+Planetary Parameters:
+              e                             Eccentricity       0.346551
+       \omega_*         Argument of periastron (degrees)      88.831980
+              P                            Period (days)       2.152175
+              a                     Semi-major axis (AU)       0.031169
+          R_{P}                             Radius (\rj)       0.988402
+         T_{eq}              Equilibrium Temperature (K)    1293.824288
+          \fave                 Incident flux (\fluxcgs)       0.565618
+RV Parameters:
+  e\cos\omega_*                                                0.007064
+  e\sin\omega_*                                                0.346479
+          T_{P}             Time of periastron (\bjdtdb) 2456156.647377
+Primary Transit Parameters:
+            T_C                Time of transit (\bjdtdb) 2456156.650556
+    R_{P}/R_{*}        Radius of planet in stellar radii       0.118142
+        a/R_{*}         Semi-major axis in stellar radii       7.795707
+            u_1              linear limb-darkening coeff       0.581021
+            u_2           quadratic limb-darkening coeff       0.172839
+              i                    Inclination (degrees)      86.189641
+              b                         Impact Parameter       0.338543
+         \delta                            Transit depth       0.013957
+       T_{FWHM}                     FWHM duration (days)       0.057821
+           \tau           Ingress/egress duration (days)       0.007769
+         T_{14}                    Total duration (days)       0.065590
+          P_{T}        A priori non-grazing transit prob       0.173104
+        P_{T,G}                    A priori transit prob       0.219486
+            F_0                            Baseline flux       1.000155
+Secondary Eclipse Parameters:
+          T_{S}                Time of eclipse (\bjdtdb) 2456155.584786
+          b_{S}                         Impact parameter       0.697515
+     T_{S,FWHM}                     FWHM duration (days)       0.089486
+         \tau_S           Ingress/egress duration (days)       0.021221
+       T_{S,14}                    Total duration (days)       0.110707
+          P_{S}        A priori non-grazing eclipse prob       0.084017
+        P_{S,G}                    A priori eclipse prob       0.106529
+
+Errors from Carter et al., 2008 (eqs 19 & 23):
+\sigma_{T,C}    ~ 0.00031495295
+\sigma_{\tau}   ~ 0.0010910290
+\sigma_{T,FWHM} ~ 0.00062990589
+\sigma_{\depth} ~ 0.00029332409
+
+NOTE: depth used here (0.013957492) is not delta
+      if the transit is grazing
+
+NOTE: If chi2/dof of combined fit is not ~1, do not trust these -- rerun with errors equal to your original errors multiplied by the scaling
