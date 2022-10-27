@@ -1,4 +1,4 @@
-# Homogeneous Transit Timing Analyses of Ten Exoplanet Systems 
+# Homogeneous Transit Timing Analyses of 10 Exoplanet Systems 
 
 ### This repository is hosted using Github Pages at: https://abdulmuhaymin.github.io/ttv/
 
